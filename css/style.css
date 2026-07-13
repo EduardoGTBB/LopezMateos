@@ -1,0 +1,272 @@
+/* ==========================================================================
+   Estilos Globales - Plan Integral Distrito López Mateos
+   Identidad Gráfica Oficial (Montserrat + Paleta de Colores Institucional)
+   ========================================================================== */
+
+/* 1. TIPOGRAFÍA OFICIAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* 2. VARIABLES DE LA PALETA DE COLORES OFICIAL */
+:root {
+    --brand-dark: #004b13;           /* Verde Oscuro */
+    --brand-primary: #00943c;        /* Verde Institucional */
+    --brand-lime: #94ee00;           /* Verde Limón */
+    --brand-orange: #fd8107;         /* Naranja */
+    
+    /* Tonos sutiles protectores de contraste para fondos de sección */
+    --brand-primary-subtle: #e6f6eb; 
+    --brand-lime-subtle: #f5fad7;    
+    --brand-orange-subtle: #fef4e5;  
+}
+
+/* ==========================================================================
+   3. SISTEMA DE SECCIONES MULTICOLORES (Para las secciones <section>)
+   ========================================================================== */
+
+.section-brand-dark {
+    background-color: var(--brand-dark) !important;
+    color: #ffffff !important;
+}
+.section-brand-dark .text-muted, .section-brand-dark .text-light {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.section-brand-dark h1, .section-brand-dark h2, .section-brand-dark h3, .section-brand-dark h4, .section-brand-dark h5, .section-brand-dark h6 {
+    color: #ffffff !important;
+}
+
+.section-brand-primary {
+    background-color: var(--brand-primary) !important;
+    color: #ffffff !important;
+}
+.section-brand-primary h1, .section-brand-primary h2, .section-brand-primary h3, .section-brand-primary h4, .section-brand-primary h5, .section-brand-primary h6 {
+    color: #ffffff !important;
+}
+
+.section-brand-lime-light {
+    background-color: var(--brand-lime-subtle) !important;
+    color: var(--brand-dark) !important;
+}
+
+.section-brand-orange-light {
+    background-color: var(--brand-orange-subtle) !important;
+    color: var(--brand-dark) !important;
+}
+
+.section-brand-primary-light {
+    background-color: var(--brand-primary-subtle) !important;
+    color: var(--brand-dark) !important;
+}
+
+.section-white {
+    background-color: #ffffff !important;
+    color: var(--brand-dark) !important;
+}
+
+/* ==========================================================================
+   4. SOBREESCRITURA DE ESTILOS BOOTSTRAP (Auto-Theming)
+   ========================================================================== */
+.bg-dark { background-color: var(--brand-dark) !important; }
+.text-brand-dark, .text-dark { color: var(--brand-dark) !important; }
+.text-primary, .text-success { color: var(--brand-primary) !important; }
+.text-warning { color: var(--brand-orange) !important; }
+
+/* Botones Oficiales */
+.btn-primary, .btn-success {
+    background-color: var(--brand-primary) !important;
+    border-color: var(--brand-primary) !important;
+    color: #ffffff !important;
+}
+.btn-primary:hover, .btn-success:hover {
+    background-color: #007a31 !important; /* Tono más oscuro al pasar el mouse */
+    border-color: #007a31 !important;
+}
+
+.btn-outline-primary, .btn-outline-success {
+    color: var(--brand-primary) !important;
+    border-color: var(--brand-primary) !important;
+}
+.btn-outline-primary:hover, .btn-outline-success:hover {
+    background-color: var(--brand-primary) !important;
+    color: #ffffff !important;
+}
+
+.btn-warning {
+    background-color: var(--brand-orange) !important;
+    border-color: var(--brand-orange) !important;
+    color: #ffffff !important;
+}
+.btn-warning:hover {
+    background-color: #d66d00 !important;
+    color: #ffffff !important;
+}
+
+.badge.text-warning { color: var(--brand-orange) !important; border-color: var(--brand-orange) !important; }
+.badge.text-primary { color: var(--brand-primary) !important; border-color: var(--brand-primary) !important; }
+
+.form-control::placeholder {
+    color: #adb5bd !important;
+    opacity: 0.6 !important;
+    font-style: italic;
+}
+
+/* ==========================================================================
+   5. COMPONENTES Y TARJETAS
+   ========================================================================== */
+
+/* Del index.php */
+.badge-floating {
+    bottom: -20px;
+    left: -10px;
+    z-index: 10;
+}
+.icon-box-light {
+    width: 40px; height: 40px;
+    background-color: #f1f5f9;
+    border-radius: 8px; display: flex; align-items: center; justify-content: center;
+}
+
+/* Tarjetas Generales */
+.stat-icon { font-size: 2rem; color: var(--brand-primary); }
+.stat-card { transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; }
+.stat-card:hover { transform: translateY(-5px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; }
+
+.proposal-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.proposal-card:hover { transform: translateY(-4px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.08) !important; }
+.icon-box-primary {
+    width: 48px; height: 48px;
+    background-color: var(--brand-primary-subtle); color: var(--brand-primary);
+    border-radius: 10px; display: flex; align-items: center; justify-content: center;
+}
+
+.benefit-card { cursor: pointer; transition: background-color 0.2s ease; }
+.benefit-card:hover { background-color: rgba(0,0,0,0.03); }
+
+.impact-card { transition: all 0.3s ease; cursor: pointer; }
+.impact-card:hover { transform: translateY(-5px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.10) !important; }
+.impact-desc { max-height: 0; opacity: 0; transition: all 0.3s ease; overflow: hidden; margin-top: 0; }
+.impact-card:hover .impact-desc { max-height: 100px; opacity: 1; margin-top: 1rem; }
+
+.hover-primary { transition: all 0.2s ease-in-out; }
+.hover-primary:hover { color: var(--brand-primary) !important; background-color: var(--brand-primary-subtle) !important; }
+
+/* Slider Antes / Después */
+.overlay-img { clip-path: inset(0 0 0 50%); will-change: clip-path; }
+.slider-handle {
+    position: absolute; top: 0; bottom: 0; left: 50%; width: 48px;
+    transform: translateX(-50%); z-index: 5; pointer-events: none;
+    display: flex; align-items: center; justify-content: center;
+}
+.slider-line { position: absolute; top: 0; bottom: 0; left: 50%; width: 3px; background-color: #ffffff; transform: translateX(-50%); z-index: 1; }
+.slider-button {
+    position: relative; width: 48px; height: 48px; background: #ffffff;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    border: 2px solid var(--brand-primary); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); z-index: 2;
+}
+.slider-button i { color: var(--brand-primary) !important; }
+.slider-input { -webkit-appearance: none; appearance: none; background: transparent; z-index: 6; cursor: ew-resize; opacity: 0; }
+.slider-input::-webkit-slider-thumb { -webkit-appearance: none; width: 40px; height: 100vh; }
+.slider-input::-moz-range-thumb { width: 40px; height: 100vh; background: transparent; border: none; }
+
+.tracking-wide { letter-spacing: 0.1em; }
+.date-box { border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease; }
+.date-box:hover { transform: translateY(-5px); }
+html { scroll-behavior: smooth; }
+
+/* ==========================================================================
+   ETIQUETAS DE SECCIÓN HOMOLOGADAS (BADGES)
+   ========================================================================== */
+
+/* 1. Etiqueta Verde Institucional (Para secciones claras) */
+.badge-section-green {
+    background-color: var(--brand-primary-subtle) !important; 
+    color: var(--brand-primary) !important;            
+    border: 1px solid var(--brand-primary) !important; 
+}
+
+/* 2. Etiqueta Naranja Oficial (Para alertas o impactos temporales) */
+.badge-section-orange {
+    background-color: var(--brand-orange-subtle) !important; 
+    color: var(--brand-orange) !important;            
+    border: 1px solid var(--brand-orange) !important; 
+}
+
+/* 3. Etiqueta Naranja Outline (Para las cabeceras oscuras) */
+.badge-section-outline-orange {
+    background-color: transparent !important; 
+    color: var(--brand-orange) !important;            
+    border: 1px solid var(--brand-orange) !important; 
+}
+
+/* ==========================================================================
+   TARJETAS DE PROPUESTA (Globales)
+   ========================================================================== */
+/* 1. Comportamiento base para TODO el sitio web (Inicio, etc.) */
+.proposal-card { 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+.proposal-card:hover { 
+    transform: translateY(-4px); 
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.08) !important; 
+}
+
+/* 2. Comportamiento EXCLUSIVO para la sección Componentes en conoce-proyecto.php */
+#componentes .proposal-card {
+    min-height: 300px; /* Obliga a estas 8 tarjetas a medir lo mismo al inicio */
+}
+
+#componentes .btn-toggle-text[aria-expanded="true"] .ver-mas { display: none !important; }
+#componentes .btn-toggle-text[aria-expanded="true"] .ver-menos { display: inline !important; }
+
+#componentes .btn-toggle-text[aria-expanded="false"] .ver-mas { display: inline !important; }
+#componentes .btn-toggle-text[aria-expanded="false"] .ver-menos { display: none !important; }
+
+/* Confinamos los estilos estrictamente a la sección #beneficios */
+#beneficios .benefit-card { 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+#beneficios .benefit-card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.15) !important; 
+}
+
+/* 1. Zoom elegante y oscurecimiento de la imagen al hacer hover */
+#beneficios .benefit-card img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+#beneficios .benefit-card:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.4); 
+}
+
+/* 2. Sombra de texto estricta para garantizar legibilidad */
+#beneficios .benefit-card h6, 
+#beneficios .benefit-card p {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+}
+
+/* 3. Gradiente manejado por CSS (Sube y se oscurece al pasar el mouse) */
+#beneficios .benefit-gradient {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);
+    transition: all 0.4s ease;
+}
+#beneficios .benefit-card:hover .benefit-gradient {
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.75) 80%, transparent 100%);
+}
+
+/* 4. Animación de revelado del texto */
+#beneficios .benefit-desc {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+#beneficios .benefit-card:hover .benefit-desc {
+    max-height: 200px; 
+    opacity: 1;
+}
