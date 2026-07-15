@@ -74,7 +74,7 @@
             </div>
 
             <div class="col-lg-5">
-                <div class="card border-0 bg-dark text-white p-4 rounded-4 shadow-sm mb-4">
+                <!-- <div class="card border-0 bg-dark text-white p-4 rounded-4 shadow-sm mb-4">
                     <h6 class="fw-bold text-warning mb-3"><i class="bi bi-clock me-2"></i>Horarios de atención</h6>
                     <div class="d-flex justify-content-between border-bottom border-light border-opacity-25 py-2 small">
                         <span>Lunes a viernes</span><span class="fw-semibold">9:00 - 18:00</span>
@@ -85,7 +85,7 @@
                     <div class="d-flex justify-content-between py-2 small">
                         <span>Domingo</span><span class="fw-semibold text-danger text-uppercase">Cerrado</span>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="card border-0 bg-light p-4 rounded-4 shadow-sm text-center">
                     <i class="bi bi-whatsapp text-success display-4 mb-2"></i>
@@ -98,3 +98,5 @@
         </div>
     </div>
 </section>
+
+<?php include 'footer.php'; ?>

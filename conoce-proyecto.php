@@ -9,7 +9,7 @@
                         Conoce el proyecto
                     </span>
                     <h1 class="display-4 fw-bolder mb-4">
-                        Plan Integral de <br>López Mateos
+                        Conoce el Plan Integral López Mateos
                     </h1>
                     <p class="lead text-light opacity-75 mb-5">
                         Una propuesta para atender de manera coordinada los retos de movilidad, transporte público, seguridad vial, drenaje, conectividad y espacio público de López Mateos.
@@ -76,7 +76,7 @@
 <!-- // >>> ==============================================
      // >>>   SECCIÓN | Cómo se construyó el diagnóstico
      // >>> ============================================== -->
-        <section id="diagnostico" class="py-5 section-white">
+        <section id="diagnostico" class="py-5 section-white" style="scroll-margin-top: 80px;">
             <div class="container py-4">
                 <div class="mb-4 text-center text-md-start">
                     <!-- <span class="badge text-primary bg-primary-subtle border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
@@ -95,7 +95,7 @@
                             <div class="card-body">
                                 <i class="bi bi-file-earmark-bar-graph text-primary fs-2 mb-3 d-block"></i>
                                 <h5 class="fw-bold text-brand-dark">Estudios técnicos</h5>
-                                <p class="text-muted small mb-0">Se realizaron diversos estudios sobre movilidad, infraestructura, drenaje, seguridad vial, conectividad y funcionamiento de López Mateos</p>
+                                <p class="text-muted small mb-0">Se realizaron diversos estudios sobre movilidad, infraestructura, drenaje, seguridad vial, conectividad y funcionamiento de López Mateos.</p>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             <div class="card-body">
                                 <i class="bi bi-map text-primary fs-2 mb-3 d-block"></i>
                                 <h5 class="fw-bold text-brand-dark">Información territorial</h5>
-                                <p class="text-muted small mb-0">Se analizaron mapas, tramos, puntos críticos, relación con colonias, equipamientos, vialidades metropolitanas y zonas de influencia.</p>
+                                <p class="text-muted small mb-0"> Se analizaron mapas, tramos, puntos críticos, relación con colonias, equipamientos, vialidades metropolitanas y zonas de influencia.</p>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                             <div class="card-body">
                                 <i class="bi bi-people text-primary fs-2 mb-3 d-block"></i>
                                 <h5 class="fw-bold text-brand-dark">Participación ciudadana</h5>
-                                <p class="text-muted small mb-0">Se realizó un proceso participativo robusto que incluye opiniones, experiencias y propuestas recabadas a través de 58,856 participaciones en los Diálogos 2022-2023 y 403 participantes presenciales y 5,683 participaciones digitales en las Mesas de Diálogo 2025.</p>
+                                <p class="text-muted small mb-0"> Se realizó un proceso participativo robusto que incluye opiniones, experiencias y propuestas recabadas a través de 58,856 participaciones en los Diálogos 2022-2023 y 403 participantes presenciales y 5,683 participaciones digitales en las Mesas de Diálogo 2025.</p>
                             </div>
                         </div>
                     </div>
@@ -155,6 +155,10 @@
             <div class="container py-4">
                 <div class="mb-4 text-center text-md-start">
                     <h2 class="fw-bold text-brand-dark mb-3">Problemáticas principales</h2>
+                    <p class="text-muted fs-5">
+                        Los estudios técnicos muestran:
+
+                    </p>
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
@@ -165,7 +169,7 @@
                                 <h5 class="fw-bold text-brand-dark mb-2">Movilidad saturada</h5>
                                 <p class="text-muted small flex-grow-1">Una sola avenida hace dos trabajos incompatibles al mismo tiempo: mover viajes locales y viajes de paso.</p>
                                 <div class="mt-3 pt-2 border-top border-light">
-                                    <span class="d-block text-primary small fw-bold"><i class="bi bi-speedometer2 me-1"></i> < 10 km/h en hora pico </span>
+                                    <span class="d-block text-primary small fw-bold"><i class="bi bi-speedometer2 me-1"></i>Menos de 10 km/h en hora pico</span>
                                     <span class="d-block text-primary small fw-bold"><i class="bi bi-plus-circle me-1"></i> +160 mil autos al día</span>
                                 </div>
                             </div>
@@ -330,152 +334,13 @@
                 <div class="mb-5">
                     <!-- <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
                     <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
-                        Componentes del Plan
+                        Componentes del Plan Integral
                     </span>
                     <h2 class="fw-bold text-brand-dark mb-3">Un plan integral para atender las diferentes problemáticas identificadas</h2>
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <!-- <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-layers fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">01</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Viaducto subterráneo <span class="text-primary fs-6 ms-2">6.28 km</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1"> Busca mover parte del tráfico por debajo del nivel de calle en el tramo urbano para liberar superficie y permitir mejoras en transporte público, ciclovía, cruces y espacio público..</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>4.53 km entre Periférico y Av. Tizoc</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>1.75 km en Mariano Otero</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Rampas estratégicas y conexión con Mariano Otero</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-distribute-vertical fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">02</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Viaducto elevado <span class="text-primary fs-6 ms-2">11.84 km</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1">Separa viajes largos, vehículos de paso y transporte de carga del tránsito local en el tramo suburbano.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Entre Camino Real a Colima y Periférico</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Rutas exprés</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Separa flujo de paso y suburbano</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-bus-front fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">03</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Transporte público <span class="text-primary fs-6 ms-2">6.3 km · 10 estaciones</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1">Carril exclusivo con estaciones de conexión con Macro Periférico, Tren Ligero y rutas troncales para mejorar tiempos y regularidad.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>3.9 km entre Circuito Metropolitano y Camino Real</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Carril confinado</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Conexión con Línea 1 y futura Línea 5</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-bicycle fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">04</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Ciclovía <span class="text-primary fs-6 ms-2">6.01 km</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1">Infraestructura ciclista en López Mateos y Mariano Otero, conectada con la red existente, separada del tráfico vehicular.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>4.26 km en López Mateos</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>1.75 km en Mariano Otero</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Carril confinado seguro</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-sign-stop fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">05</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Cruces seguros <span class="text-primary fs-6 ms-2">9 peatonales, 4 vehiculares</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1">Sustituye cruces inseguros y puentes poco accesibles por cruces a nivel de calle con accesibilidad universal.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Eliminación de 7 puentes peatonales</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Nuevos cruces en Plaza del Sol, Moctezuma, etc.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-tree fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">06</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Espacios públicos y<span class="text-primary fs-6 ms-2">Parques lineales</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1">Recupera espacio a nivel de calle para áreas verdes, arbolado, zonas de descanso y convivencia.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>780 m en López Mateos (Jardines del Sol)</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>1.6 km de parque lineal en Mariano Otero</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-water fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">07</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Drenaje <span class="text-primary fs-6 ms-2">4.6 km nuevos colectores</span></h5>
-                            <p class="text-muted small mb-4 flex-grow-1">Propone nuevos colectores para separar el agua residual del agua de lluvia, reduciendo inundaciones.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Colector sanitario y pluvial separados</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>+20% de capacidad respecto al actual</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
-                            <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="icon-box-primary">
-                                    <i class="bi bi-cash-coin fs-4"></i>
-                                </div>
-                                <span class="text-muted small fw-bold">08</span>
-                            </div>
-                            <h5 class="fw-bold text-brand-dark">Modelo de operación y tramos de cuota</h5>
-                            <p class="text-muted small mb-4 flex-grow-1">El tramo urbano será libre y el tramo suburbano contempla un esquema de peaje aún en definición.</p>
-                            <ul class="list-unstyled small text-muted mb-0">
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo urbano libre: 4.53 km</li>
-                                <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo suburbano con peaje: 15.74 km</li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <div class="col">
+                    <div class="col" id="comp-viaducto" style="scroll-margin-top: 120px;">
                         <div class="card border-0 bg-white rounded-4 p-4 proposal-card shadow-sm">
                             <div class="card-body p-0 d-flex flex-column h-100">
                                 <div>
@@ -485,8 +350,8 @@
                                         </div>
                                         <span class="text-muted small fw-bold">01</span>
                                     </div>
-                                    <h5 class="fw-bold text-brand-dark">Viaducto subterráneo <span class="text-primary fs-6 ms-2">6.28 km</span></h5>
-                                    <p class="text-muted small mb-3"> Busca mover parte del tráfico por debajo del nivel de calle en el tramo urbano para liberar superficie y permitir mejoras en transporte público, ciclovía, cruces y espacio público.</p>
+                                    <h5 class="fw-bold text-brand-dark">Viaducto subterráneo <span class="text-primary fs-6 ms-2">6.28 km totales.</span></h5>
+                                    <p class="text-muted small mb-3">Busca mover parte del tráfico por debajo del nivel de calle en el tramo urbano para liberar superficie y permitir mejoras en transporte público, ciclovía, cruces y espacio público.</p>
                                 </div>
                                 
                                 <div class="mt-auto">
@@ -497,12 +362,12 @@
 
                                     <div class="collapse mt-3" id="comp1">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo: 4.53 km entre Periférico y Av. Tizoc; 1.75 km en Mariano Otero, desde la Glorieta hasta Av. de las Rosas</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Problema que atiende: mezcla de tráfico local y de paso  en el tramo urbano.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Principales elementos: 
-                                                <ul>Viaducto subterráneo en tres tramos de la sección urbana del Corredor.</ul>
-                                                <ul>Rampas de entrada y salida en puntos estratégicos.</ul>
-                                                <ul>Conexión con Mariano Otero mediante una incorporación subterránea.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>Tramo: 4.53 km entre Periférico y Av. Tizoc; 1.75 km en Mariano Otero, desde la Glorieta hasta Av. de las Rosas</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i></i>Problema que atiende: mezcla de tráfico local y de paso  en el tramo urbano.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Principales elementos: 
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Viaducto subterráneo en tres tramos de la sección urbana del Corredor.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Rampas de entrada y salida en puntos estratégicos.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Conexión con Mariano Otero mediante una incorporación subterránea.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -533,11 +398,11 @@
 
                                     <div class="collapse mt-3" id="comp2">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo: Entre Camino Real a Colima y Periférico.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Problema que atiende: saturación por falta de alternativas norte-sur en el tramo suburbano</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Principales componentes:
-                                                <ul>Viaducto elevado que separa tránsito de paso y flujo suburbano.</ul>
-                                                <ul>Rutas exprés.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Tramo: Entre Camino Real a Colima y Periférico.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Problema que atiende: saturación por falta de alternativas norte-sur en el tramo suburbano</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Principales componentes:
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Viaducto elevado que separa tránsito de paso y flujo suburbano.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Rutas exprés.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -568,13 +433,13 @@
 
                                     <div class="collapse mt-3" id="comp3">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo: 3.9 km entre Circuito Metropolitano y el Camino Real a Colima.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Problema que atiende: autobuses comparten el espacio con los vehículos particulares y queda atrapado en el tráfico.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Elementos asociados: 
-                                                <ul>Carril exclusivo confinado.</ul>
-                                                <ul>Estaciones en puntos de conexión.</ul>
-                                                <ul>Conexión con Macro Periférico, Línea 1, futura Línea 5 y rutas troncales.</ul>
-                                                <ul>Ruta exprés en tramo suburbano.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Tramo: 3.9 km entre Circuito Metropolitano y el Camino Real a Colima.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Problema que atiende: autobuses comparten el espacio con los vehículos particulares y queda atrapado en el tráfico.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>Elementos asociados: 
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Carril exclusivo confinado.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Estaciones en puntos de conexión.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Conexión con Macro Periférico, Línea 1, futura Línea 5 y rutas troncales.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Ruta exprés en tramo suburbano.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -605,11 +470,11 @@
 
                                     <div class="collapse mt-3" id="comp4">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo: 4.26 km en López Mateos; 1.75 km en Mariano Otero.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Problemática que atiende: falta de infraestructura ciclista en López Mateos y en Mariano Otero.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Elementos asociados: 
-                                                <ul>Conexión con ciclovías existentes.</ul>
-                                                <ul>Carril confinado y separado del tráfico vehicular.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Tramo: 4.26 km en López Mateos; 1.75 km en Mariano Otero.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Problemática que atiende: falta de infraestructura ciclista en López Mateos y en Mariano Otero.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Elementos asociados: 
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Conexión con ciclovías existentes.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Carril confinado y separado del tráfico vehicular.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -640,13 +505,25 @@
 
                                     <div class="collapse mt-3" id="comp5">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i> Problemática que atiende: Cruzar el corredor actualmente es difícil, inseguro y poco accesible para peatones y ciclistas</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Principales componentes: 
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>  Problemática que atiende: Cruzar el corredor actualmente es difícil, inseguro y poco accesible para peatones y ciclistas</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Principales componentes: 
 
-                                                <ul>Cruces vehiculares en Las Fuentes, Galileo, Orión y Conchita.</ul>
-                                                <ul>Eliminación de 7 puentes peatonales.</ul>
-                                                <ul>9 cruces peatonales en puntos estratégicos: 1) Av. Lázaro Cárdenas, 2) De las Rosas, 3) 12 de diciembre, 4) Av. Cubilete, 5) Plaza del Sol, 6) Av. Moctezuma, 7) Av. Mariano Otero, 8) Av. Patria y 9) Av. Copérnico.</ul>
-                                                <ul>Accesibilidad universal.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Cruces vehiculares en Las Fuentes, Galileo, Orión y Conchita.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Eliminación de 7 puentes peatonales.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>9 cruces peatonales en puntos estratégicos: 
+                                                    <ol>
+                                                        <li>Av. Lázaro Cárdenas</li>
+                                                        <li>De las Rosas</li>
+                                                        <li>12 de diciembre</li>
+                                                        <li>Av. Cubilete</li>
+                                                        <li>Plaza del Sol</li>
+                                                        <li>Av. Moctezuma</li>
+                                                        <li>Av. Mariano Otero</li>
+                                                        <li>Av. Patria y 9</li>
+                                                        <li>Av. Copérnico</li>
+                                                    </ol>
+                                                </ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Accesibilidad universal.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -677,14 +554,14 @@
 
                                     <div class="collapse mt-3" id="comp6">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo: López Mateos y Mariano Otero</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Problemática que atiende: Falta de espacios públicos articulados y de calidad a lo largo del Corredor.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Principales componentes:
-                                                <ul>Parque lineal en Jardines del Sol.</ul>
-                                                <ul>Parque lineal en Mariano Otero.</ul>
-                                                <ul>Mobiliario urbano.</ul>
-                                                <ul>Iluminación.</ul>
-                                                <ul>Arbolado y conexión con senderos existentes.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Tramo: López Mateos y Mariano Otero</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Problemática que atiende: Falta de espacios públicos articulados y de calidad a lo largo del Corredor.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Principales componentes:
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Parque lineal en Jardines del Sol.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Parque lineal en Mariano Otero.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Mobiliario urbano.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Iluminación.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Arbolado y conexión con senderos existentes.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -715,12 +592,11 @@
 
                                     <div class="collapse mt-3" id="comp7">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Problemática que atiende: Inundaciones recurrentes por el drenaje actual rebasado, tiene más de  50 años y no fue planeado para la demanda actual de la zona metropolitana:  viviendas y comercios cercanas a la Av. López Mateos.</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Principales componentes:
-
-                                                <ul>Colector sanitario.</ul>
-                                                <ul>Colector pluvial.</ul>
-                                                <ul>+20% de capacidad respecto al colector sanitario actual.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Problemática que atiende: Inundaciones recurrentes por el drenaje actual rebasado, tiene más de  50 años y no fue planeado para la demanda actual de la zona metropolitana:  viviendas y comercios cercanas a la Av. López Mateos.</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Principales componentes:
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Colector sanitario.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Colector pluvial.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>+20% de capacidad respecto al colector sanitario actual.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -751,11 +627,11 @@
 
                                     <div class="collapse mt-3" id="comp8">
                                         <ul class="list-unstyled small text-muted mb-0 pt-2 border-top border-light">
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Tramo: Periférico Sur – Circuito Metropolitano Sur</li>
-                                            <li><i class="bi bi-arrow-right text-primary me-2"></i>Principales componentes:
-                                                <ul>Tramo urbano libre: 4.53 km.</ul>
-                                                <ul>Tramo suburbano con peaje: 15.74 km.</ul>
-                                                <ul>Monto y estructura de tarifas por definir.</ul>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Tramo: Periférico Sur – Circuito Metropolitano Sur</li>
+                                            <li><i class="bi bi-check-circle-fill text-success me-2 mt-1"></i> Principales componentes:
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Tramo urbano libre: 4.53 km.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Tramo suburbano con peaje: 15.74 km.</ul>
+                                                <ul><i class="bi bi-arrow-right text-primary me-2"></i>Monto y estructura de tarifas por definir.</ul>
                                             </li>
                                         </ul>
                                     </div>
@@ -799,8 +675,7 @@
 
 <!-- // >>> ==============================================
      // >>> SECCIÓN | ¿Qué podría mejorar Plan Integral?
-     // >>> ============================================== -->
-        
+     // >>> ============================================== -->    
         <section id="beneficios" class="py-5 section-white">
             <div class="container py-4">
                 <div class="mb-4 text-center text-md-start">
@@ -815,86 +690,8 @@
                 </div>
 
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 pb-5">
-                    <!-- <div class="col">
-                        <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
-                            <img src="images/diapositiva21_LPM.jpg" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Autobús en carril confinado">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
-                                <div class="p-4 pt-5 mt-auto" style="background: linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0) 100%);">
-                                    <i class="bi bi-clock-history text-warning fs-3 mb-2 d-block"></i>
-                                    <h6 class="fw-bold text-white mb-2">Menores tiempos de traslado</h6>
-                                    <p class="text-light opacity-75 small mb-0">Al separar los flujos y dar prioridad al transporte público se reducirán los tiempos de traslado y los tiempos de viaje podrán ser más previsibles.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
-                            <img src="images/inicio_26diap.png" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Autobús en carril confinado">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
-                                <div class="p-4 pt-5 mt-auto" style="background: linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0) 100%);">
-                                    <i class="bi bi-bus-front text-warning fs-3 mb-2 d-block"></i>
-                                    <h6 class="fw-bold text-white mb-2">Transporte público más eficiente</h6>
-                                    <p class="text-light opacity-75 small mb-0">El carril exclusivo permitirá que los viajes en autobús sean más ágiles, reduciendo el tiempo de recorrer un trayecto de XX de 30 a 10 minutos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
-                            <img src="images/diapositiva_29.png" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Carril ciclista protegido">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
-                                <div class="p-4 pt-5 mt-auto" style="background: linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0) 100%);">
-                                    <i class="bi bi-bicycle text-warning fs-3 mb-2 d-block"></i>
-                                    <h6 class="fw-bold text-white mb-2">Ciclovía segura</h6>
-                                    <p class="text-light opacity-75 small mb-0">Con la ciclovía confinada, moverse en bicicleta podría convertirse en una alternativa real y segura para trayectos cotidianos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
-                            <img src="images/diapositiva50_LPM.jpg" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Autobús en carril confinado">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
-                                <div class="p-4 pt-5 mt-auto" style="background: linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0) 100%);">
-                                    <i class="bi bi-shield-check text-warning fs-3 mb-2 d-block"></i>
-                                    <h6 class="fw-bold text-white mb-2">Cruces más seguros</h6>
-                                    <p class="text-light opacity-75 small mb-0">Los cruces a nivel de calle mejorarán la accesibilidad y facilitarían el paso de peatones y ciclistas, especialmente para personas mayores, niñas, niños y personas con discapacidad. La avenida dejará de ser una barrera peligrosa para volverse más fácil y segura de cruzar.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
-                            <img src="images/diapositiva_25_via_express.png" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Parque lineal">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
-                                <div class="p-4 pt-5 mt-auto" style="background: linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0) 100%);">
-                                    <i class="bi bi-tree text-warning fs-3 mb-2 d-block"></i>
-                                    <h6 class="fw-bold text-white mb-2">Más espacios públicos</h6>
-                                    <p class="text-light opacity-75 small mb-0">Al liberar espacio en superficie, se recuperarán espacios verdes que hoy son inaccesibles por el volumen de tráfico y que volverán a ser de los vecinos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
-                            <img src="images/diapositiva56_LPM_D.jpg" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Diagrama de colectores">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
-                                <div class="p-4 pt-5 mt-auto" style="background: linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0) 100%);">
-                                    <i class="bi bi-cloud-rain text-warning fs-3 mb-2 d-block"></i>
-                                    <h6 class="fw-bold text-white mb-2">Menos inundaciones</h6>
-                                    <p class="text-light opacity-75 small mb-0">Separar agua pluvial y sanitaria mejorará la capacidad del sistema y reducirá las inundaciones que hoy paralizan el corredor y dañan comercios y vehículos durante temporada de lluvias.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
                     <!-- BENEFICIO 1 -->
-                    <div class="col" id="ben-tiempos" style="scroll-margin-top: 120px;">
+                    <div class="col" id="ben-tiempos">
                         <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
                             <img src="images/diapositiva21_LPM.jpg" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Autobús en carril confinado">
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
@@ -910,7 +707,7 @@
                     </div>
 
                     <!-- BENEFICIO 2 -->
-                    <div class="col" id="ben-transporte" style="scroll-margin-top: 120px;">
+                    <div class="col" id="ben-transporte">
                         <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
                             <img src="images/inicio_26diap.png" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Autobús en carril confinado">
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
@@ -926,7 +723,7 @@
                     </div>
 
                     <!-- BENEFICIO 3 -->
-                    <div class="col" id="ben-ciclovia" style="scroll-margin-top: 120px;">
+                    <div class="col" id="ben-ciclovia">
                         <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
                             <img src="images/diapositiva_29.png" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Carril ciclista protegido">
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
@@ -942,7 +739,7 @@
                     </div>
 
                     <!-- BENEFICIO 4 -->
-                    <div class="col" id="ben-cruces" style="scroll-margin-top: 120px;">
+                    <div class="col" id="ben-cruces">
                         <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
                             <img src="images/diapositiva50_LPM.jpg" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Cruce peatonal seguro">
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
@@ -958,7 +755,7 @@
                     </div>
 
                     <!-- BENEFICIO 5 -->
-                    <div class="col" id="ben-espacios" style="scroll-margin-top: 120px;">
+                    <div class="col" id="ben-espacios">
                         <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
                             <img src="images/diapositiva_25_via_express.png" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Parque lineal">
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
@@ -974,7 +771,7 @@
                     </div>
 
                     <!-- BENEFICIO 6 -->
-                    <div class="col" id="ben-drenaje" style="scroll-margin-top: 120px;">
+                    <div class="col" id="ben-drenaje">
                         <div class="card text-white border-0 shadow-sm rounded-4 h-100 benefit-card overflow-hidden" style="min-height: 320px;">
                             <img src="images/diapositiva56_LPM_D.jpg" class="card-img h-100 w-100 object-fit-cover position-absolute top-0 start-0" alt="Diagrama de colectores">
                             <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
@@ -993,7 +790,7 @@
         </section>
 
 <!-- // >>> ==============================================
-     // >>>          SECCIÓN | Impactos temporales
+     // >>>         SECCIÓN | Impactos temporales
      // >>> ============================================== -->
         <section id="impactos" class="py-5 section-brand-orange-light border-top border-warning border-opacity-25">
             <div class="container py-4">
@@ -1002,7 +799,7 @@
                     <span class="badge badge-section-orange px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
                         Impactos Temporales
                     </span>
-                    <h2 class="fw-bold text-brand-dark mb-3">Toda obra de esta escala implica impactos temporales</h2>
+                    <!-- <h2 class="fw-bold text-brand-dark mb-3">Toda obra de esta escala implica impactos temporales</h2> -->
                     <p class="text-muted fs-5">
                         Como en otros proyectos icónicos de la Ciudad como Paseo Alcalde, Periférico y Carretera Chapala, el Plan Integral podría generar afectaciones temporales durante su construcción. La información específica sobre etapas, desvíos, accesos, horarios, medidas de mitigación y zonas afectadas se publicará conforme avance la planeación del proyecto. Entre los impactos temporales que podrían presentarse están:
                     </p>
@@ -1106,6 +903,38 @@
                     <span class="badge bg-secondary position-absolute top-0 start-0 m-3 z-3 px-3 py-2 rounded-pill shadow-sm">HOY</span>
                     <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3 z-3 px-3 py-2 rounded-pill shadow-sm">CON EL PLAN</span>
                 </div>
+
+                <div class="mx-auto" style="max-width: 1000px;">
+                    <div class="row gx-4 mb-3 border-bottom border-secondary pb-2">
+                        <div class="col-6 fw-bold text-uppercase text-light opacity-50 small">Hoy</div>
+                        <div class="col-6 fw-bold text-uppercase text-warning small">Con el Plan Integral</div>
+                    </div>
+                    
+                    <div class="row gx-4 py-3 border-bottom border-secondary border-opacity-25 align-items-center">
+                        <div class="col-6 text-light opacity-75">Tráfico de paso y local mezclado</div>
+                        <div class="col-6 fw-semibold">Separación de flujos en tramos estratégicos</div>
+                    </div>
+                    <div class="row gx-4 py-3 border-bottom border-secondary border-opacity-25 align-items-center">
+                        <div class="col-6 text-light opacity-75">Transporte público atrapado en el tráfico</div>
+                        <div class="col-6 fw-semibold">Carril exclusivo y rutas exprés</div>
+                    </div>
+                    <div class="row gx-4 py-3 border-bottom border-secondary border-opacity-25 align-items-center">
+                        <div class="col-6 text-light opacity-75">Sin ciclovías</div>
+                        <div class="col-6 fw-semibold">Ciclovías confinadas</div>
+                    </div>
+                    <div class="row gx-4 py-3 border-bottom border-secondary border-opacity-25 align-items-center">
+                        <div class="col-6 text-light opacity-75">Cruces peatonales poco accesibles</div>
+                        <div class="col-6 fw-semibold">Cruces seguros a nivel de calle</div>
+                    </div>
+                    <div class="row gx-4 py-3 border-bottom border-secondary border-opacity-25 align-items-center">
+                        <div class="col-6 text-light opacity-75">Drenaje rebasado</div>
+                        <div class="col-6 fw-semibold">Nuevos colectores sanitario y pluvial</div>
+                    </div>
+                    <div class="row gx-4 py-3 border-bottom border-secondary border-opacity-25 align-items-center">
+                        <div class="col-6 text-light opacity-75">Espacio público fragmentado</div>
+                        <div class="col-6 fw-semibold">Parques lineales y áreas de convivencia</div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -1195,7 +1024,8 @@
         });
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    </body>
-</html>
+    <script src="js/main.js?v=1.0"></script> -->
+    
+    <?php include 'footer.php'; ?>

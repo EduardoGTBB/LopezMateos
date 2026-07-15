@@ -6,14 +6,22 @@
                 <!-- <span class="badge bg-light text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold">
                     PLAN INTEGRAL 2025-2030
                 </span> -->
-                <h1 class="display-4 fw-bolder text-brand-dark mb-4">
+                <!-- <h1 class="display-4 fw-bolder text-brand-dark mb-4">
                     López Mateos, <br>te toca a ti.
-                </h1>
+                </h1> -->
+                <!-- <p class="lead text-muted mb-4">
+                    Conoce la propuesta del <strong class="fw-bold">Plan Integral para López Mateos:</strong> una estrategia para atender los retos de movilidad, transporte público, drenaje, seguridad vial, conectividad y espacio público. 
+                    <br>
+                </p> -->
                 <p class="lead text-muted mb-4">
-                    Conoce el <strong>Plan Integral Distrito López Mateos</strong>: una propuesta para mejorar la movilidad, el transporte público, la seguridad vial, el drenaje y los espacios públicos del corredor. Infórmate, resuelve tus dudas y participa en la Consulta Popular.
+                    Conoce la propuesta una estrategia para atender los retos de movilidad, transporte público, drenaje, seguridad vial, conectividad y espacio público. 
+                    <br>
                 </p>
+
+
+                <p class="lead text-muted mb-4">Infórmate, resuelve tus dudas y participa en la Consulta Popular.</p>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="conoce-proyecto.php" class="btn btn-primary btn-lg px-4 rounded-pill shadow-sm">Conoce el proyecto</a>
+                    <a href="conoce-proyecto.php" class="btn btn-primary btn-lg px-4 rounded-pill shadow-sm">Conoce el Plan Integral</a>
                     <a href="socializacion-consulta.php" class="btn btn-outline-primary btn-lg px-4 rounded-pill shadow-sm">Participa en la Consulta Popular</a>
                 </div>
             </div>
@@ -43,7 +51,7 @@
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="fw-bold text-brand-dark">Antes de decidir, conoce qué está pasando</h2>
                     <p class="mt-3">
-                        <strong>López Mateos mueve a miles de personas todos los días... pero hoy ya no responde a lo que la ciudad necesita</strong> 
+                        <strong>López Mateos mueve a miles de personas todos los días... pero hoy ya no responde a lo que la ciudad necesita </strong> 
                     </p>
                     <p class="lead text-muted mt-3">
                         López Mateos concentra viajes locales, viajes de paso, transporte público, peatones, ciclistas, vehículos particulares y transporte de carga. A esto se suman problemas de drenaje, inundaciones, cruces inseguros y falta de espacios públicos de calidad 
@@ -112,7 +120,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="text-center">
                 <a href="conoce-proyecto.php#diagnostico" class="text-decoration-none fw-bold text-primary fs-5">
                     Conoce el diagnóstico completo <i class="bi bi-arrow-right"></i>
@@ -123,7 +130,7 @@
 
 
 <!-- // >>> ==============================================
-     // >>>             SECCIÓN | ¿Qué propone? 
+     // >>>       SECCIÓN | ¿Qué propone López Mateos? 
      // >>> ============================================== -->
     <section class="py-5 section-white">
         <div class="container py-4">
@@ -232,7 +239,7 @@
                             </div>
                             <h5 class="fw-bold text-brand-dark mb-3">Viaducto  subterráneo en el tramo urbano</h5>
                             <p class="text-muted small flex-grow-1">Viaducto elevado en el tramo suburbano para separar viajes locales y de paso.</p>
-                            <a href="conoce-proyecto.php#componentes" class="text-decoration-none fw-bold text-primary small text-uppercase mt-3">
+                            <a href="conoce-proyecto.php#comp-viaducto" class="text-decoration-none fw-bold text-primary small text-uppercase mt-3">
                                 Conocer más <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -253,7 +260,7 @@
                 <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
                     BENEFICIOS
                 </span>
-                <h2 class="fw-bold text-brand-dark">¿Qué podría cambiar para quienes usan, viven o trabajan cerca de López Mateos?</h2>
+                <h2 class="fw-bold text-brand-dark">¿Qué podría cambiar para quienes usan, viven o trabajan cerca?</h2>
                 <p class="text-muted mt-3 fs-5 col-lg-8">
                     El Plan Integral busca mejorar la experiencia cotidiana de las personas que usan el corredor, no solo de quienes se mueven en auto. 
                 </p>
@@ -377,7 +384,7 @@
                 </span>
                 <h2 class="fw-bold mb-3">Así podría cambiar López Mateos</h2>
                 <p class="text-light opacity-75 fs-5 col-lg-8">
-                    La propuesta busca transformar una avenida saturada y difícil de cruzar a un espacio mejor conectado, con transporte público más eficiente, cruces seguros, ciclovía, drenaje renovado y más áreas públicas.
+                    La propuesta busca transformar una avenida saturada y difícil de cruzar a un espacio mejor conectado, con transporte público más eficiente, cruces seguros, ciclovía, drenaje renovado y más áreas públicas 
                 </p>
             </div>
 
@@ -437,7 +444,6 @@
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -505,9 +511,9 @@
                     <span class="badge badge-section-orange px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
                         Lo que también debes saber
                     </span>
-                    <h2 class="fw-bold text-brand-dark mb-3">Toda obra de esta escala implica impactos temporales </h2>
+                    <h2 class="fw-bold text-brand-dark mb-3">Toda obra de esta escala implica impactos temporales</h2>
                     <p class="text-muted fs-5">
-                        Como otros proyectos de infraestructura urbana, el Plan Integral podría generar afectaciones temporales durante su construcción. La información sobre etapas, desvíos, accesos, horarios, medidas de mitigación y zonas afectadas deberá publicarse conforme avance la planeación. 
+                        Como otros proyectos de infraestructura urbana, el Plan Integral podría generar afectaciones temporales durante su construcción. La información sobre etapas, desvíos, accesos, horarios, medidas de mitigación y zonas afectadas deberá publicarse conforme avance la planeación.
                     </p>
                 </div>
             </div>
@@ -589,26 +595,26 @@
     <section class="py-5 bg-white">
         <div class="container py-5 text-center">
             
-            <h2 class="display-5 fw-bolder text-brand-dark mb-4 mx-auto" style="max-width: 800px;">
-                Participa, infórmate y decide ¡López Mateos te toca a ti!
-            </h2>
-            <p class="text-muted lead mb-5 mx-auto" style="max-width: 700px;">
+            <!-- Descripción actualizada -->
+            <p class="display-6 fw-bolder text-brand-dark mx-auto mb-4">
                 Infórmate sobre la propuesta, revisa los documentos disponibles y participa en la Consulta Popular. Tu participación ayudará a decidir el futuro de López Mateos.
             </p>
 
-            <div class="mx-auto rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box" style="max-width: 600px; background-color: #f6f5ef;">
-                <p class="text-uppercase fw-bold text-muted small mb-2 tracking-wide">Participa este próximo</p>
-                <h3 class="display-6 fw-bolder text-brand-dark mb-4">2 de agosto de 2026</h3>
-                <a href="#" class="btn btn-dark btn-lg px-5 rounded-pill shadow-sm">
-                    Participar ahora
+            <!-- Contenedor resaltado para el botón -->
+            <div class="mx-auto rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box d-flex justify-content-center align-items-center" style="max-width: 600px; background-color: #f6f5ef;">
+                
+                <!-- Botón CTA con enlace directo al ancla de la otra página -->
+                <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary">
+                    Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
                 </a>
+                
             </div>
-
+            
         </div>
     </section>    <!-- Antes y después -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const slider = document.getElementById('compareSlider');
@@ -671,5 +677,8 @@
         });
     </script>
 
-</body>
-</html>
+    <!-- <script src="js/main.js?v=1.0"></script> -->
+
+    <?php include 'footer.php'; ?>
+<!-- </body>
+</html> -->

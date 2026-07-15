@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold text-primary" href="#">LM DISTRITO</a>
@@ -25,9 +24,11 @@
                     <li class="nav-item"><a class="nav-link" href="documentos.php">Repositorio</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
                     <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-                        <a class="btn btn-warning fw-semibold px-4 rounded-pill" href="#">Participa</a>
+                        <!-- <a class="btn btn-warning text-dark fw-bold px-4 rounded-pill shadow-sm" href="https://ee.kobotoolbox.org/yCu22I6o" target="_blank" rel="noopener noreferrer">Participa</a> -->
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalPrivacidad" class="btn btn-warning text-dark fw-bold px-4 rounded-pill shadow-sm">Participa</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+<!-- </body> -->

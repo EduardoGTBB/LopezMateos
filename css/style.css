@@ -270,3 +270,48 @@ html { scroll-behavior: smooth; }
     max-height: 200px; 
     opacity: 1;
 }
+
+/* ==========================================================================
+   ESTADO ACTIVO PARA DEEP LINKING (Controlado exclusivamente por JS)
+   ========================================================================== */
+.card-is-active {
+    transform: translateY(-5px) !important;
+    /* Box-shadow doble para abrazar perfectamente las esquinas */
+    box-shadow: 0 0 0 3px var(--brand-lime), 0 1rem 2rem rgba(0,0,0,.30) !important;
+    background-color: #ffffff !important;
+    transition: all 0.4s ease;
+    z-index: 10; 
+}
+
+/* * APLICACIÓN ESTRICTA: Solo forzamos la altura y opacidad para las tarjetas 
+ * que usan CSS puro (.benefit-desc y .impact-desc).
+ * Las tarjetas de Componentes usan el .collapse de Bootstrap, por lo que las omitimos aquí.
+ */
+.card-is-active .benefit-desc,
+.card-is-active .impact-desc {
+    max-height: 500px !important; 
+    opacity: 1 !important;
+    margin-top: 1rem !important; 
+}
+
+.card-is-active img {
+    transform: scale(1.05) !important;
+    filter: brightness(0.4) !important;
+}
+
+.card-is-active .benefit-gradient {
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.75) 80%, transparent 100%) !important;
+}
+
+/* * CORRECCIÓN VISUAL BOTÓN COLLAPSE:
+ * Si el panel colapsable está abierto (.show), ocultamos "Ver más" y mostramos "Ver menos"
+ */
+.card-is-active .collapse.show ~ * .btn-toggle-text .ver-mas,
+.card-is-active .btn-toggle-text[aria-expanded="true"] .ver-mas {
+    display: none !important;
+}
+
+.card-is-active .collapse.show ~ * .btn-toggle-text .ver-menos,
+.card-is-active .btn-toggle-text[aria-expanded="true"] .ver-menos {
+    display: inline !important;
+}
