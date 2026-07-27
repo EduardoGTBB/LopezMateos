@@ -21,7 +21,7 @@
 
 <section class="py-5 section-white">
     <div class="container py-4">
-        <div class="row g-4">
+        <div class="row g-4" id="contact">
             
             <div class="col-lg-7">
                 <div class="card border-0 bg-light p-4 rounded-4 shadow-sm">
@@ -57,7 +57,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="acepto_terminos" id="terminos" required>
                                     <label class="form-check-label small text-muted" for="terminos">
-                                        He leído y acepto el <a href="#" class="text-success text-decoration-none fw-semibold">aviso de privacidad</a> y los términos y condiciones.
+                                        He leído y acepto el <a href="#" id="linkPrivacidadContacto" data-bs-toggle="modal" data-bs-target="#modalPrivacidad" class="text-success text-decoration-none fw-semibold">aviso de privacidad</a> y los términos y condiciones.
                                     </label>
                                     <div class="invalid-feedback">
                                         Debes aceptar el aviso de privacidad para continuar.
@@ -90,7 +90,7 @@
                 <div class="card border-0 bg-light p-4 rounded-4 shadow-sm text-center">
                     <i class="bi bi-whatsapp text-success display-4 mb-2"></i>
                     <h6 class="fw-bold text-brand-dark mb-1">Resuelve dudas por WhatsApp</h6>
-                    <p class="text-muted small mb-3">Atención directa e inmediata con nuestro equipo automatizado.</p>
+                    <p class="text-muted small mb-3">Atención directa e inmediata.</p>
                     <a href="#" class="btn btn-outline-success rounded-pill fw-semibold shadow-sm w-100">Chatear ahora</a>
                 </div>
             </div>
@@ -98,5 +98,69 @@
         </div>
     </div>
 </section>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const modalPrivacidad = document.getElementById('modalPrivacidad');
+        const checkboxTerminos = document.getElementById('terminos');
+        const linkContacto = document.getElementById('linkPrivacidadContacto');
+
+        // Nos aseguramos de que existan los elementos antes de actuar
+        if (modalPrivacidad && checkboxTerminos && linkContacto) {
+            
+            // Seleccionamos los botones globales usando sus clases
+            const btnAceptar = modalPrivacidad.querySelector('.btn-success');
+            const btnRechazar = modalPrivacidad.querySelector('.btn-outline-secondary');
+            
+            let vieneDelFormulario = false;
+
+            // 1. Detectar quién disparó el modal de Bootstrap
+            modalPrivacidad.addEventListener('show.bs.modal', function(event) {
+                // event.relatedTarget contiene el elemento HTML que recibió el clic
+                if (event.relatedTarget === linkContacto) {
+                    vieneDelFormulario = true;
+                } else {
+                    vieneDelFormulario = false;
+                }
+            });
+
+            // 2. Interceptar el botón "Aceptar"
+            if (btnAceptar) {
+                btnAceptar.addEventListener('click', function(event) {
+                    if (vieneDelFormulario) {
+                        // Bloqueamos el enlace externo a KoboToolbox de forma segura (OWASP)
+                        event.preventDefault(); 
+                        
+                        // Activamos la casilla
+                        checkboxTerminos.checked = true; 
+                        
+                        // Cerramos el modal
+                        const modalInstance = bootstrap.Modal.getInstance(modalPrivacidad) || bootstrap.Modal.getOrCreateInstance(modalPrivacidad);
+                        modalInstance.hide();
+                    }
+                    // Si vieneDelFormulario es false (ej. clic desde la barra superior), se comportará normal y abrirá la pestaña.
+                });
+            }
+
+            // 3. Interceptar el botón "Rechazar"
+            if (btnRechazar) {
+                btnRechazar.addEventListener('click', function(event) {
+                    if (vieneDelFormulario) {
+                        // Bloqueamos la redirección a index.php que tiene el footer global
+                        event.preventDefault(); 
+                        
+                        // Desactivamos la casilla
+                        checkboxTerminos.checked = false; 
+                        
+                        // Cerramos el modal
+                        const modalInstance = bootstrap.Modal.getInstance(modalPrivacidad) || bootstrap.Modal.getOrCreateInstance(modalPrivacidad);
+                        modalInstance.hide();
+                    }
+                });
+            }
+        }
+    });
+</script>
 
 <?php include 'footer.php'; ?>

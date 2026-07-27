@@ -26,8 +26,36 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:#f5f5f5}
 .layer-toggle.off .swatch{opacity:.15}
 .layer-toggle.off .lbl{color:#bbb;text-decoration:line-through}
 .lbl{font-size:13px;color:#333;line-height:1.3}
-.leaflet-popup-content-wrapper{border-radius:8px;font-family:'Segoe UI',Arial,sans-serif}
-.leaflet-popup-content{font-size:16px;line-height:1.5;max-width: 280px;}
+/*.leaflet-popup-content-wrapper{border-radius:8px;font-family:'Segoe UI',Arial,sans-serif}
+.leaflet-popup-content{font-size:16px;line-height:1.5;max-width: 280px;}*/
+
+/* --- INICIO FIX LEAFLET POPUP CSS --- */
+.leaflet-popup-content-wrapper {
+    border-radius: 0.5rem; /* Estilo Bootstrap rounded */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra Bootstrap shadow-sm */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 0;
+    overflow: hidden;
+}
+.leaflet-popup-content {
+    margin: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 250px !important;
+    color: #212529; /* Bootstrap text-dark */
+}
+.leaflet-popup-content img {
+    width: 100% !important; 
+    max-width: 100%;
+    height: auto !important;
+    border-radius: 0.375rem; 
+    margin-bottom: 12px;
+    object-fit: cover;
+    /* Limitamos la altura máxima por seguridad visual */
+    max-height: 220px; 
+}
+/* --- FIN FIX LEAFLET POPUP CSS --- */
+
 .popup-title{font-weight:700;color:#1F4E5F;margin-bottom:4px}
 .popup-cat{font-size:11px;color:#888}
 .panel-toggle{display:none;position:fixed;bottom:20px;right:20px;z-index:1000;background:#1F4E5F;color:#fff;border:none;width:48px;height:48px;border-radius:50%;font-size:22px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.3)}
@@ -85,9 +113,9 @@ const COMP= {"type":"FeatureCollection","features":[{"type":"Feature","propertie
             {"type":"Feature","properties":{"name":"Ciclovía Mariano Otero","description":"<img src='img/ciclovia_mariano.png' style='width:100%;border-radius:4px;margin-bottom:6px'> <span style='font-size:18px'><b>Parte de los 6.01 km de nuevas ciclovías</b><br><br></span> <span style='font-size:16px'>Incorpora infraestructura ciclista segura donde antes no existía.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.405603,20.646912],[-103.391657,20.654791]]}},
             {"type":"Feature","properties":{"name":"Tramo Elevado Viaducto López Mateos","description":"<img src='img/viaducto_elevado.png' style='width:100%;border-radius:4px;margin-bottom:6px'> <span style='font-size:18px'><b>Longitud: 11.84 km</b><br><br></span> <span style='font-size:16px'>Separa viajes largos, vehículos de paso y carga del tránsito local en el tramo suburbano.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.424957,20.617668],[-103.430803,20.608841],[-103.435765,20.601282],[-103.440028,20.594823],[-103.447385,20.583708],[-103.451776,20.577021],[-103.457255,20.568705],[-103.462485,20.560760],[-103.467155,20.553643],[-103.471964,20.546252],[-103.472260,20.545733],[-103.472428,20.545255],[-103.472709,20.544178],[-103.474736,20.535491],[-103.475124,20.533540],[-103.477542,20.528926]]}},
             {"type":"Feature","properties":{"name":"Carril Exprés","description":"<span style='font-size:18px'><b>Tramo de cuota</b><br><br></span> <span style='font-size:16px'>El tramo urbano será libre y el tramo suburbano contempla un esquema de peaje aún en definición</span>"},"geometry":{"type":"LineString","coordinates":[[-103.477542,20.528913],[-103.481370,20.522420],[-103.484460,20.517107],[-103.485738,20.514795],[-103.486069,20.514231],[-103.486278,20.513735],[-103.486393,20.513233],[-103.487013,20.509845],[-103.487943,20.504312],[-103.488993,20.497981],[-103.489979,20.492356],[-103.490063,20.491929],[-103.490165,20.491478],[-103.490293,20.491114],[-103.490485,20.490780],[-103.490986,20.489989]]}},
-            {"type":"Feature","properties":{"name":"Acceso Camino al ITESO","description":"span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.421966,20.617069],[-103.423646,20.618579],[-103.423938,20.618832],[-103.423966,20.618876],[-103.423976,20.618935],[-103.423970,20.618994],[-103.423959,20.619064],[-103.423933,20.619148],[-103.423901,20.619247]]}},
-            {"type":"Feature","properties":{"name":"Acceso Av. Patria","description":"span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.414894,20.635431],[-103.414329,20.635110],[-103.414116,20.634981],[-103.413978,20.634888],[-103.413938,20.634841],[-103.413911,20.634770],[-103.413893,20.634662],[-103.413903,20.634577],[-103.413935,20.634447],[-103.414001,20.634266]]}},
-            {"type":"Feature","properties":{"name":"Salida Av Patria","description":"span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.414001,20.634261],[-103.413738,20.634478],[-103.413633,20.634493],[-103.413504,20.634490],[-103.413382,20.634466],[-103.413279,20.634431],[-103.413133,20.634390],[-103.413020,20.634321],[-103.412199,20.633825]]}},
+            {"type":"Feature","properties":{"name":"Acceso Camino al ITESO","description":"<strong>Problemática que atiende:</strong>'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.421966,20.617069],[-103.423646,20.618579],[-103.423938,20.618832],[-103.423966,20.618876],[-103.423976,20.618935],[-103.423970,20.618994],[-103.423959,20.619064],[-103.423933,20.619148],[-103.423901,20.619247]]}},
+            {"type":"Feature","properties":{"name":"Acceso Av. Patria","description":"<span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.414894,20.635431],[-103.414329,20.635110],[-103.414116,20.634981],[-103.413978,20.634888],[-103.413938,20.634841],[-103.413911,20.634770],[-103.413893,20.634662],[-103.413903,20.634577],[-103.413935,20.634447],[-103.414001,20.634266]]}},
+            {"type":"Feature","properties":{"name":"Salida Av Patria","description":"<span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.414001,20.634261],[-103.413738,20.634478],[-103.413633,20.634493],[-103.413504,20.634490],[-103.413382,20.634466],[-103.413279,20.634431],[-103.413133,20.634390],[-103.413020,20.634321],[-103.412199,20.633825]]}},
             {"type":"Feature","properties":{"name":"Deprimido Mariano Otero","description":"<span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.405648,20.646862],[-103.397206,20.651657]]}},
             {"type":"Feature","properties":{"name":"Deprimido SIOP","description":"<span style='font-size:18px'><b>Parte de los 6.28 km de tramo subterráneo</b><br><br></span> <span style='font-size:16px'>Permite mover parte del tráfico por vía subterránea en el tramo urbano y liberar espacio a nivel de calle para transporte público, ciclovía, parque lineal y cruces seguros.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.397245,20.651659],[-103.389493,20.656070]]}},
             {"type":"Feature","properties":{"name":"Ciclovía López Mateos","description":"<img src='img/ciclovia_lopez_mateos.jpg' style='width:100%;border-radius:4px;margin-bottom:6px'> <span style='font-size:18px'><b>Parte de los 6.01 km de nuevas ciclovías</b><br><br></span> <span style='font-size:16px'>Incorpora infraestructura ciclista segura donde antes no existía.</span>"},"geometry":{"type":"LineString","coordinates":[[-103.424191,20.618843],[-103.401557,20.652815]]}},
@@ -257,7 +285,40 @@ const map = L.map('map', {
   maxZoom: 18
 }).setView([20.58, -103.44], 12);
 
+// ==========================================================================
+// FIX LEAFLET: Renderizado de popups seguro y redibujado dinámico
+// ==========================================================================
+function onEachFeatureCustom(feature, layer) {
+    if (feature.properties && feature.properties.description) {
+        
+        // Estructuramos el HTML del popup. 
+        // Nota OWASP: Al ser datos estáticos controlados por ti en la variable COMP, 
+        // el uso de literales aquí no presenta riesgo de inyección XSS.
+        let popupContent = `
+            <div class="popup-title">${feature.properties.name}</div>
+            <div class="popup-desc mt-2">${feature.properties.description}</div>
+        `;
 
+        layer.bindPopup(popupContent, {
+            maxWidth: 320,  
+            minWidth: 250,
+            autoPanPadding: [20, 20] 
+        });
+
+        // Interceptamos la apertura para recalcular la altura
+        layer.on('popupopen', function(e) {
+            let popup = e.popup;
+            let contentNode = popup.getElement();
+            let image = contentNode.querySelector('img');
+            
+            if (image && !image.complete) {
+                image.onload = function() {
+                    popup.update(); 
+                };
+            }
+        });
+    }
+}
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
 attribution:'&copy; <a href="https://carto.com/">CARTO</a> · <a href="https://osm.org/copyright">OSM</a>',maxZoom:19}).addTo(map);
 
@@ -266,7 +327,7 @@ return '<div class="popup-title">'+name+'</div>'+(desc?'<div class="popup-cat">'
 }
 
 // Component layers
-const layerMap={};
+/*const layerMap={};
 LAYERS.forEach(cfg=>{
 const g=L.layerGroup();
 COMP.features.filter(f=>cfg.match(f.properties.name)).forEach(f=>{
@@ -281,6 +342,66 @@ if(cfg.dash)opts.dashArray=cfg.dash;
 L.polyline(f.geometry.coordinates.map(c=>[c[1],c[0]]),opts).bindPopup(p_).addTo(g);
 }});
 g.addTo(map);layerMap[cfg.id]={group:g,cfg};
+});*/
+
+// Component layers
+const layerMap={};
+LAYERS.forEach(cfg=>{
+    
+    const g = L.featureGroup();
+    
+    // --- FIX JS AVANZADO: Control de Carga y Errores 404 ---
+    g.on('popupopen', function(e) {
+        let popup = e.popup;
+        let images = popup.getElement().querySelectorAll('img');
+        
+        images.forEach(function(img) {
+            // Si la imagen carga, reajustamos el globo
+            img.onload = function() {
+                popup.update();
+            };
+            // Si la imagen NO EXISTE (404), la eliminamos del HTML para no mostrar recuadros rotos
+            img.onerror = function() {
+                this.remove(); 
+                popup.update();
+            };
+        });
+    });
+
+    COMP.features.filter(f=>cfg.match(f.properties.name)).forEach(f=>{
+        
+        let n = f.properties.name;
+        let d = f.properties.description;
+        
+        // --- NORMALIZADOR DE RUTAS (REGEX) ---
+        if (d && d.includes("<img")) {
+            // Esto buscará cualquier variante (img/, ../img/, ./mapa/img/) 
+            // y la forzará a apuntar a la carpeta raíz de tu sitio.
+            // NOTA: Estoy usando "../images/". Si tu carpeta real se llama "img", cámbialo por "../img/"
+            d = d.replace(/src=['"][^'"]*(img|images)\/([^'"]+)['"]/g, "src='img/$2'");
+        }
+
+        const p_ = popup(n, cfg.label, d);
+        const popupOptions = { maxWidth: 320, minWidth: 250, autoPanPadding: [20, 20] };
+
+        if(f.geometry.type==='Point'){
+            L.circleMarker([f.geometry.coordinates[1],f.geometry.coordinates[0]],{radius:8,fillColor:cfg.color,fillOpacity:.9,color:'#fff',weight:2})
+             .bindPopup(p_, popupOptions).addTo(g);
+             
+        }else if(f.geometry.type==='Polygon'){
+            L.polygon(f.geometry.coordinates[0].map(c=>[c[1],c[0]]),{color:cfg.color,weight:2,fillColor:cfg.color,fillOpacity:.35})
+             .bindPopup(p_, popupOptions).addTo(g);
+             
+        }else{
+            const opts={color:cfg.color,weight:cfg.weight||4,opacity:.85};
+            if(cfg.dash)opts.dashArray=cfg.dash;
+            L.polyline(f.geometry.coordinates.map(c=>[c[1],c[0]]),opts)
+             .bindPopup(p_, popupOptions).addTo(g);
+        }
+    });
+    
+    g.addTo(map);
+    layerMap[cfg.id]={group:g,cfg};
 });
 
 // Engineering layers (off by default)

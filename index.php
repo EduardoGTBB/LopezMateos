@@ -6,17 +6,16 @@
                 <!-- <span class="badge bg-light text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold">
                     PLAN INTEGRAL 2025-2030
                 </span> -->
-                <!-- <h1 class="display-4 fw-bolder text-brand-dark mb-4">
+                <h1 class="display-4 fw-bolder text-brand-dark mb-4">
                     López Mateos, <br>te toca a ti.
-                </h1> -->
-                <!-- <p class="lead text-muted mb-4">
-                    Conoce la propuesta del <strong class="fw-bold">Plan Integral para López Mateos:</strong> una estrategia para atender los retos de movilidad, transporte público, drenaje, seguridad vial, conectividad y espacio público. 
-                    <br>
-                </p> -->
+                </h1>
                 <p class="lead text-muted mb-4">
+                    Conoce la propuesta del Plan Integral para López Mateos: una estrategia para atender los retos de movilidad, transporte público, drenaje, seguridad vial, conectividad y espacio público.  
+                </p>
+                <!-- <p class="lead text-muted mb-4">
                     Conoce la propuesta una estrategia para atender los retos de movilidad, transporte público, drenaje, seguridad vial, conectividad y espacio público. 
                     <br>
-                </p>
+                </p>-->
 
 
                 <p class="lead text-muted mb-4">Infórmate, resuelve tus dudas y participa en la Consulta Popular.</p>
@@ -138,12 +137,12 @@
                 <div class="col-lg-7">
                     <!-- <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide"> -->
                     <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
-                        PROPUESTA
+                        ¿Qué propone López Mateos?
                     </span>
-                    <h2 class="fw-bold text-brand-dark">¿Qué propone?</h2>
-                    <p class="mt-3">
-                        <strong>No es solo una obra: es una estrategia integral</strong> 
-                    </p>
+                    <h2 class="fw-bold text-brand-dark">No es solo una obra: es una estrategia integral</h2>
+                    <!-- <p class="mt-3">
+                        <strong></strong> 
+                    </p> -->
                     <p class="text-muted mt-3 mb-0 fs-5">
                         La propuesta combina distintas intervenciones para atender varios problemas de López Mateos  al mismo tiempo: movilidad, transporte público, infraestructura hidráulica, cruces seguros, ciclovía, espacio público y separación de flujos en tramos estratégicos. 
                     </p>
@@ -258,9 +257,9 @@
             <div class="mb-5">
                 <!-- <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold"> -->
                 <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
-                    BENEFICIOS
+                   Qué busca mejorar en tu día a día
                 </span>
-                <h2 class="fw-bold text-brand-dark">¿Qué podría cambiar para quienes usan, viven o trabajan cerca?</h2>
+                <h2 class="fw-bold text-brand-dark">¿Qué podría cambiar para quienes usan, viven o trabajan cerca de López Mateos?</h2>
                 <p class="text-muted mt-3 fs-5 col-lg-8">
                     El Plan Integral busca mejorar la experiencia cotidiana de las personas que usan el corredor, no solo de quienes se mueven en auto. 
                 </p>
@@ -380,7 +379,7 @@
             <div class="mb-5 text-center text-md-start">
                 <!-- <span class="badge text-warning border border-warning px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
                 <span class="badge badge-section-outline-orange px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
-                    Transformación
+                    Hoy vs con el Plan
                 </span>
                 <h2 class="fw-bold mb-3">Así podría cambiar López Mateos</h2>
                 <p class="text-light opacity-75 fs-5 col-lg-8">
@@ -440,7 +439,7 @@
 
                 <div class="mt-5 ps-4 border-start border-warning border-4">
                     <p class="fst-italic fs-5 text-light mb-0">
-                        "El objetivo no es solo mover más autos: es mejorar la experiencia de todas las personas que usan el corredor."
+                        El objetivo no es solo mover más autos: es mejorar la experiencia de todas las personas que usan el corredor.     
                     </p>
                 </div>
             </div>
@@ -457,7 +456,7 @@
                 <div class="col-lg-5 text-center text-lg-start">
                     <!-- <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
                     <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
-                        Participación Ciudadana
+                       Una propuesta que evolucionó con participación ciudadana
                     </span>
                     <h2 class="fw-bold text-brand-dark mb-3">El Plan no se diseñó desde un escritorio</h2>
                     <p class="text-muted fs-5 mb-4">
@@ -585,25 +584,24 @@
                     Consulta preguntas frecuentes
                 </a>
             </div>
-
         </div>
     </section>
 
 <!-- // >>> ==============================================
-     // >>>             SECCIÓN | Participa  
+     // >>>             SECCIÓN | Participa_old
      // >>> ============================================== -->
-    <section class="py-5 bg-white">
+    <!-- <section class="py-5 bg-white">
         <div class="container py-5 text-center">
             
-            <!-- Descripción actualizada -->
+            !-- Descripción actualizada --
             <p class="display-6 fw-bolder text-brand-dark mx-auto mb-4">
                 Infórmate sobre la propuesta, revisa los documentos disponibles y participa en la Consulta Popular. Tu participación ayudará a decidir el futuro de López Mateos.
             </p>
 
-            <!-- Contenedor resaltado para el botón -->
+        <!-- Contenedor resaltado para el botón --
             <div class="mx-auto rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box d-flex justify-content-center align-items-center" style="max-width: 600px; background-color: #f6f5ef;">
                 
-                <!-- Botón CTA con enlace directo al ancla de la otra página -->
+                !-- Botón CTA con enlace directo al ancla de la otra página --
                 <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary">
                     Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
                 </a>
@@ -611,10 +609,45 @@
             </div>
             
         </div>
-    </section>    <!-- Antes y después -->
+    </section> --> 
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
-    
+    <!-- // >>> ==============================================
+     // >>>             SECCIÓN | Participa  
+     // >>> ============================================== -->
+
+    <section class="section-brand-lime-light py-5 border-top border-light">
+        <div class="container py-4">
+            <div class="mb-5">
+                <!-- <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold"> -->
+                <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
+                   Participa
+                </span>
+                <h2 class="fw-bold text-brand-dark">Participa, infórmate y decide <br class="d-none d-md-block"><span class="text-success">¡López Mateos te toca a ti!</span></h2>
+                <p class="text-muted mt-3 fs-5 col-lg-8">
+                    Infórmate sobre la propuesta, revisa los documentos disponibles y participa en la Consulta Popular. Tu participación ayudará a decidir el futuro de López Mateos.
+                </p>
+            </div>
+
+            <!-- <div class="rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box d-flex justify-content-center align-items-center" style="background-color: #f6f5ef;">
+                !-- Botón con enlace directo al ancla de la subsección --
+                <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary">
+                    Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
+                </a>
+            </div> -->
+
+            <div class="mx-auto rounded-4 p-4 p-md-5 shadow-sm date-box d-flex justify-content-center align-items-center" style="max-width: 600px; background-color: #f6f5ef;">
+                
+                <!-- Botón de acción -->
+                <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-4 px-md-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary text-nowrap">
+                    Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+     
+    <!-- Antes y después -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const slider = document.getElementById('compareSlider');
@@ -676,8 +709,6 @@
             });
         });
     </script>
-
-    <!-- <script src="js/main.js?v=1.0"></script> -->
 
     <?php include 'footer.php'; ?>
 <!-- </body>

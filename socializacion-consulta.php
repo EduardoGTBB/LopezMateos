@@ -14,10 +14,14 @@
                         La <strong class="fw-bold">socialización</strong> es el periodo previo a la Consulta Popular en el que la ciudadanía puede conocer el Plan Integral de López Mateos, revisar los resultados de los procesos participativos anteriores, entender qué cambió en la propuesta y resolver dudas.
                         El objetivo es que cada persona llegue a la Consulta con información clara, transparente y de primera mano
                     </p>
+                    <h2 class="h3 fw-bolder text-white mb-4">
+                        ¡López Mateos <span class="text-warning">te toca a ti!</span>
+                    </h2>
+                    <br>
                     
                     <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start">
                         <a href="#formas-participar" class="btn btn-warning btn-lg px-4 rounded-pill fw-semibold">Cómo participar</a>
-                        <a href="#consulta-popular" class="btn btn-outline-light btn-lg px-4 rounded-pill">Participa</a>
+                        <a href="#tu_opinion_LM" class="btn btn-outline-light btn-lg px-4 rounded-pill">Participa</a>
                     </div>
                 </div>
 
@@ -209,8 +213,7 @@
                         Habrá 30 módulos informativos a lo largo del corredor para que puedas conocer el proyecto, revisar materiales y resolver dudas. 
                         Consulta el mapa y encuentra el módulo más cercano a tu colonia, lugar de trabajo o punto de paso habitual.
                     </p>
-                    <p class="text-muted small mb-3">Mapa interactivo de módulos informativos</p>
-                    <a class="btn btn-primary rounded-pill px-4 fw-semibold shadow-sm" href="./ubicacion-modulos.html" target="_blank"><i class="bi bi-map me-2"></i>Ver mapa de módulos</a>
+                    <a class="btn btn-primary rounded-pill px-4 fw-semibold shadow-sm" href="./ubicacion-modulos.html" target="_blank"><i class="bi bi-map me-2"></i>Ver el mapa completo</a>
                 </div>
                 
                 <div class="col-lg-7">
@@ -236,7 +239,7 @@
 <!-- // >>> ==============================================
      // >>>   SECCIÓN |Tu opinión es parte de López Mateos
      // >>> ============================================== -->
-    <section class="py-5 section-white">
+    <section class="py-5 section-white" id="tu_opinion_LM">
         <div class="container py-4" style="max-width: 800px;">
             <div class="text-center mb-5">
                 <h3 class="fw-bold text-brand-dark">Tu opinión es parte del futuro de López Mateos</h3>

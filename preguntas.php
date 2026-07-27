@@ -90,7 +90,7 @@
                 </h2>
                 <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqPlan">
                     <div class="accordion-body small text-muted lh-base">
-                        Actualmente el Plan Integral Distrito López Mateos se encuentra en etapa de socialización y preparación de la Consulta Popular. Durante este periodo la ciudadanía puede conocer la propuesta, resolver dudas e informarse antes de expresar su opinión en la Consulta Popular organizada por el Instituto Electoral y de Participación Ciudadana de Jalisco.
+                        Actualmente el Plan Integral López Mateos se encuentra en etapa de socialización y preparación de la Consulta Popular. Durante este periodo la ciudadanía puede conocer la propuesta, resolver dudas e informarse antes de expresar su opinión en la Consulta Popular organizada por el Instituto Electoral y de Participación Ciudadana de Jalisco.
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                 </h2>
                 <div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqPlan">
                     <div class="accordion-body small text-muted lh-base">
-                        El corredor conecta principalmente a San Pedro Tlaquepaque, beneficiando a miles de personas que diariamente utilizan esta vialidad para trasladarse dentro del Área Metropolitana.
+                        El corredor conecta principalmente a Guadalajara, Zapopan, Tlajomulco de Zúñiga y San Pedro Tlaquepaque, beneficiando a miles de personas que diariamente utilizan esta vialidad para trasladarse dentro del Área Metropolitana.
                     </div>
                 </div>
             </div>
@@ -228,7 +228,6 @@
             </div>
         </div>
 
-        <!-- <span class="mb-4 text-center text-md-start badge text-success bg-success-subtle border border-success-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
         <span class="mb-4 text-center text-md-start badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
             Sobre los antecedentes del Plan Integral de López Mateos
         </span>
@@ -254,7 +253,8 @@
                 </h2>
                 <div id="q18" class="accordion-collapse collapse" data-bs-parent="#faqAntecedentes">
                     <div class="accordion-body small text-muted lh-base">
-                        Fueron espacios de diálogo técnico y ciudadano en los que participaron autoridades, especialistas, academia, organizaciones civiles, sector empresarial y habitantes del corredor para analizar las principales problemáticas y construir propuestas de solución. El proceso registró 403 participantes presenciales y 5,683 participaciones digitales.
+                        Fueron espacios de diálogo técnico y ciudadano en los que participaron autoridades, especialistas, academia, organizaciones civiles, sector empresarial y habitantes del corredor para analizar las principales problemáticas y construir propuestas de solución.
+                        El proceso registró <strong>403 participantes presenciales y 5,683 participaciones digitales.</strong>
                     </div>
                 </div>
             </div>
@@ -369,13 +369,17 @@
                 </h2>
                 <div id="q27" class="accordion-collapse collapse" data-bs-parent="#faqConsulta">
                     <div class="accordion-body small text-muted lh-base">
-                        La ciudadanía puede participar en distintas etapas del proceso. Durante la etapa de socialización, se habilitarán diversos espacios para conocer la propuesta y compartir opiniones:
+                        La ciudadanía puede participar en distintas etapas del proceso del Plan Integral de López Mateos.
+                        <br>
+                        <strong>Durante la etapa de socialización del proyecto</strong>, se habilitarán diversos espacios para conocer la propuesta y compartir opiniones:
+
                         <ul>
-                            <li><strong>Reuniones con actores de interés:</strong> del 24 de junio al 27 de julio.</li>
-                            <li><strong>Visitas a comercios y viviendas:</strong> del 1 al 20 de julio.</li>
-                            <li><strong>Módulos informativos:</strong> del 2 al 29 de julio.</li>
+                            <li><strong>Reuniones con actores de interés:</strong> del <strong>24 de junio al 27 de julio</strong>.</li>
+                            <li><strong>Visitas a comercios y viviendas más próximas al corredor:</strong>del <strong>1 al 20 de julio</strong>.</li>
+                            <li><strong>Módulos informativos:</strong> del <strong>2 al 29 de julio</strong>,donde la población podrá recibir información sobre el proyecto y resolver sus dudas.</li>
                         </ul>
-                        Posteriormente, el <strong>domingo 2 de agosto</strong> se llevará a cabo la Consulta Popular.
+
+                        Posteriormente, el <strong>domingo 2 de agosto</strong> se llevará a cabo la <strong>Consulta Popular</strong>,mediante la cual la ciudadanía podrá expresar su opinión conforme a las modalidades, sedes y mecanismos establecidos en la convocatoria oficial.
                     </div>
                 </div>
             </div>
@@ -388,6 +392,8 @@
                 <div id="q28" class="accordion-collapse collapse" data-bs-parent="#faqConsulta">
                     <div class="accordion-body small text-muted lh-base">
                         De acuerdo con la legislación aplicable, el resultado de la Consulta Popular será vinculante cuando participe al menos el 33% de las personas inscritas en la Lista Nominal correspondiente y una de las opciones obtenga más del 50% de los votos válidos emitidos.
+                        <br>
+                        Una vez concluida la jornada, las autoridades competentes realizarán el cómputo y darán a conocer los resultados oficiales conforme a la normatividad aplicable.
                     </div>
                 </div>
             </div>
@@ -397,8 +403,8 @@
             <h5 class="fw-bold text-brand-dark mb-2">¿No encuentras tu pregunta?</h5>
             <p class="text-muted small mb-4">Contáctanos directamente o visita uno de los módulos informativos.</p>
             <div class="d-flex justify-content-center gap-3">
-                <a href="contacto.php" class="btn btn-success rounded-pill px-4 fw-semibold">Ir a contacto</a>
-                <a href="socializacion-consulta.php" class="btn btn-outline-dark rounded-pill px-4">Participar</a>
+                <a href="contacto.php#contact" class="btn btn-success rounded-pill px-4 fw-semibold">Contáctanos</a>
+                <a href="conoce-proyecto.php#mapa" class="btn btn-outline-dark rounded-pill px-4">Ver ubicación de módulos informativos</a>
             </div>
         </div>
     </div>

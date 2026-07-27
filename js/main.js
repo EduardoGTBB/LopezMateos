@@ -11,28 +11,61 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('hashchange', initDeepLinkCards);
 
     // 3. Lógica para cerrar la tarjeta activa al hacer clic afuera
+    // document.addEventListener('click', function(event) {
+    //     const activeCards = document.querySelectorAll('.card-is-active');
+        
+    //     if (activeCards.length > 0) {
+
+    //         const isNavLink = event.target.closest('a[href^="#"]');
+    //         const isToggleButton = event.target.closest('[data-bs-toggle="collapse"]');
+
+    //         if (!clickedInsideActiveCard) {
+    //             activeCards.forEach(card => {
+    //                 card.classList.remove('card-is-active');
+                    
+    //                 const bsCollapseEl = card.querySelector('.collapse.show');
+    //                 if (bsCollapseEl) {
+    //                     const bsCollapse = bootstrap.Collapse.getInstance(bsCollapseEl);
+    //                     if (bsCollapse) {
+    //                         bsCollapse.hide();
+    //                     }
+    //                 }
+    //             });
+                
+    //             if (window.location.hash) {
+    //                 history.replaceState(null, null, window.location.pathname + window.location.search);
+    //             }
+    //         }
+    //     }
+    // });
+    // 3. Lógica para cerrar la tarjeta activa al hacer clic en ella o en cualquier otra parte
     document.addEventListener('click', function(event) {
         const activeCards = document.querySelectorAll('.card-is-active');
         
         if (activeCards.length > 0) {
-            const clickedInsideActiveCard = event.target.closest('.card-is-active');
+            // Detectamos si el clic provino de un enlace interno (menú) o del botón de "Ver más" (collapse)
+            const isNavLink = event.target.closest('a[href^="#"]');
+            const isToggleButton = event.target.closest('[data-bs-toggle="collapse"]');
 
-            if (!clickedInsideActiveCard) {
-                activeCards.forEach(card => {
-                    card.classList.remove('card-is-active');
-                    
-                    const bsCollapseEl = card.querySelector('.collapse.show');
-                    if (bsCollapseEl) {
-                        const bsCollapse = bootstrap.Collapse.getInstance(bsCollapseEl);
-                        if (bsCollapse) {
-                            bsCollapse.hide();
-                        }
-                    }
-                });
+            activeCards.forEach(card => {
+                // 1. Apagamos el resaltado visual inmediatamente
+                card.classList.remove('card-is-active');
                 
-                if (window.location.hash) {
-                    history.replaceState(null, null, window.location.pathname + window.location.search);
+                // 2. Control del colapso (acordeón)
+                const bsCollapseEl = card.querySelector('.collapse.show');
+                
+                // Si la tarjeta está expandida y NO se hizo clic en el botón nativo de Bootstrap...
+                if (bsCollapseEl && !isToggleButton) {
+                    const bsCollapse = bootstrap.Collapse.getInstance(bsCollapseEl);
+                    if (bsCollapse) {
+                        bsCollapse.hide();
+                    }
                 }
+            });
+            
+            // 3. Limpiamos la URL (quitamos el #hash) solo si no estamos navegando hacia otra ancla
+            if (window.location.hash && !isNavLink) {
+                history.replaceState(null, null, window.location.pathname + window.location.search);
             }
         }
     });
@@ -86,8 +119,10 @@ function initDeepLinkCards() {
             // 3. SCROLL SUAVE
             // Esperamos un momento para que el colapso (si existe) se abra y el cálculo de altura sea exacto
             setTimeout(() => {
-                // Ajustamos el margen dependiendo de si vamos a una tarjeta pequeña (-150) o a una sección grande (-100)
-                const yOffset = targetCard ? -150 : -100; 
+                const offsetMenu = 100;
+
+                const yOffset = targetCard ? -(offsetMenu + 50) : -offsetMenu;
+
                 const y = targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
                 window.scrollTo({top: y, behavior: 'smooth'});
             }, targetCard ? 250 : 50);

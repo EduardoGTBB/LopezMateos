@@ -174,7 +174,10 @@ body {
 .tracking-wide { letter-spacing: 0.1em; }
 .date-box { border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease; }
 .date-box:hover { transform: translateY(-5px); }
-html { scroll-behavior: smooth; }
+html { 
+    scroll-behavior: smooth; 
+    scroll-padding-top: 100px;
+}
 
 /* ==========================================================================
    ETIQUETAS DE SECCIÓN HOMOLOGADAS (BADGES)
