@@ -147,7 +147,7 @@
                         La propuesta combina distintas intervenciones para atender varios problemas de López Mateos  al mismo tiempo: movilidad, transporte público, infraestructura hidráulica, cruces seguros, ciclovía, espacio público y separación de flujos en tramos estratégicos. 
                     </p>
                 </div>
-                <!-- <div class="mt-3 mt-md-0">
+                <!--<div class="mt-3 mt-md-0">
                     <a href="#" class="text-decoration-none fw-bold text-primary">
                         Ver mapa interactivo <i class="bi bi-arrow-right"></i>
                     </a>
@@ -446,7 +446,7 @@
         </div>
     </section>
 
-<!-- // >>> ==============================================
+<!--> // >>> ==============================================
      // >>>        SECCIÓN | Participación ciudadana
      // >>> ============================================== -->
     <section class="py-5 section-white">
@@ -454,7 +454,7 @@
             <div class="row align-items-center g-5">
                 
                 <div class="col-lg-5 text-center text-lg-start">
-                    <!-- <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
+                    <!--> <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase"> -->
                     <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
                        Una propuesta que evolucionó con participación ciudadana
                     </span>
@@ -498,15 +498,15 @@
         </div>
     </section>
 
-<!-- // >>> ==============================================
+<!--> // >>> ==============================================
      // >>>      SECCIÓN | Lo que también debes saber 
      // >>> ============================================== -->
-    <!-- <section class="py-5 bg-light border-top"> -->
+    <!--> <section class="py-5 bg-light border-top"> -->
     <section class="py-5 section-brand-orange-light border-top border-warning border-opacity-25">
         <div class="container py-4">
             <div class="row mb-5">
                 <div class="col-lg-8 mx-auto text-center">
-                    <!-- <span class="badge text-danger bg-danger-subtle border border-danger-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase">-->
+                    <!--> <span class="badge text-danger bg-danger-subtle border border-danger-subtle px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase">-->
                     <span class="badge badge-section-orange px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
                         Lo que también debes saber
                     </span>
@@ -587,21 +587,21 @@
         </div>
     </section>
 
-<!-- // >>> ==============================================
+<!--> // >>> ==============================================
      // >>>             SECCIÓN | Participa_old
      // >>> ============================================== -->
-    <!-- <section class="py-5 bg-white">
+    <!--> <section class="py-5 bg-white">
         <div class="container py-5 text-center">
             
-            !-- Descripción actualizada --
+            <!--> Descripción actualizada -->
             <p class="display-6 fw-bolder text-brand-dark mx-auto mb-4">
                 Infórmate sobre la propuesta, revisa los documentos disponibles y participa en la Consulta Popular. Tu participación ayudará a decidir el futuro de López Mateos.
             </p>
 
-        <!-- Contenedor resaltado para el botón --
+        <!--> Contenedor resaltado para el botón -->
             <div class="mx-auto rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box d-flex justify-content-center align-items-center" style="max-width: 600px; background-color: #f6f5ef;">
                 
-                !-- Botón CTA con enlace directo al ancla de la otra página --
+                <!--> Botón CTA con enlace directo al ancla de la otra página -->
                 <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary">
                     Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
                 </a>
@@ -609,16 +609,16 @@
             </div>
             
         </div>
-    </section> --> 
+    </section> -->
 
-    <!-- // >>> ==============================================
+    <!--> // >>> ==============================================
      // >>>             SECCIÓN | Participa  
      // >>> ============================================== -->
 
     <section class="section-brand-lime-light py-5 border-top border-light">
         <div class="container py-4">
             <div class="mb-5">
-                <!-- <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold"> -->
+                <!--> <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-3 rounded-pill fw-semibold"> -->
                 <span class="badge badge-section-green px-3 py-2 mb-3 rounded-pill fw-semibold text-uppercase tracking-wide">
                    Participa
                 </span>
@@ -628,8 +628,8 @@
                 </p>
             </div>
 
-            <!-- <div class="rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box d-flex justify-content-center align-items-center" style="background-color: #f6f5ef;">
-                !-- Botón con enlace directo al ancla de la subsección --
+            <!--> <div class="rounded-4 p-4 p-md-5 mb-4 shadow-sm date-box d-flex justify-content-center align-items-center" style="background-color: #f6f5ef;">
+                <!--> Botón con enlace directo al ancla de la subsección -->
                 <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary">
                     Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
                 </a>
@@ -637,7 +637,7 @@
 
             <div class="mx-auto rounded-4 p-4 p-md-5 shadow-sm date-box d-flex justify-content-center align-items-center" style="max-width: 600px; background-color: #f6f5ef;">
                 
-                <!-- Botón de acción -->
+                <!--> Botón de acción -->
                 <a href="socializacion-consulta.php#formas-participar" class="btn btn-warning btn-lg px-4 px-md-5 py-3 rounded-pill shadow text-dark fw-bold fs-5 d-inline-flex align-items-center transition-all hover-primary text-nowrap">
                     Conoce cómo participar <i class="bi bi-arrow-right-circle ms-2 fs-4"></i>
                 </a>
@@ -647,7 +647,7 @@
     </section>
 
      
-    <!-- Antes y después -->
+    <!--> Antes y después -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const slider = document.getElementById('compareSlider');
@@ -668,7 +668,7 @@
         });
     </script>
 
-    <!-- Sección de números -->
+    <!--> Sección de números -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const counters = document.querySelectorAll('.counter');
@@ -710,6 +710,7 @@
         });
     </script>
 
-    <?php include 'footer.php'; ?>
-<!-- </body>
+    ?php include 'footer.php'; ?>
+<!--> </body>
 </html> -->
+ -->>
